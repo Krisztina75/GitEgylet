@@ -10,7 +10,7 @@ var start  */
 function szavazas() {
     var valasztott = document.querySelector('input[name=voting]:checked');
     /*
-        for (var i = 0; i < valasztott.length; i++) {
+        for (var i = 0; i < valasztott.length; i++) {o 
             if (valasztott[i].checked == true) {
                 console.log(valasztott[i].value);
             } */
