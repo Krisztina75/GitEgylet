@@ -21,16 +21,32 @@
         <div id="content">
             <div id="nav">
                 <h3>Tartalom</h3>
+                <br>
                 <ul>
-                    <li><a href="#cactus">A kaktuszokról</a></li>
-                    <li>Táblázat</li>
-                    <li>Kérdések</li>
-                    <li>Kapcsolatok</li>
+                    <li><strong><a href="#cactus">Kaktuszok</a></strong></li>
+                    <br>
+                    <ul>
+                        <li><a href="#orvosi-aloe">Orvosi Aloe</a></li>
+                        <li><a href="#orias-sunkaktusz">Óriás sünkaktusz</a></li>
+                        <li><a href="#haromelu-kutyatej">Háromélű kutyatej</a></li>
+                        <li><a href="#botkaktusz">Botkaktusz</a></li>
+                        <li><a href="#agave">Agávé</a></li>
+                    </ul>
+                    <br>
+                    <li><strong><a href="#kaktusz-jatek">Játék a kaktuszokkal</a></strong></li>
+                    <br>
+                    <ul>
+                        <li><a href="#milyen-kaktusz">Milyen kaktusz látható a képen?</a></li>
+                        <br>
+                        <li>Másik játék</li>
+                    </ul>
+
                 </ul>
             </div>
             <div id="main-kaktusz">
                 <h2 id="cactus">Kaktuszok</h2>
-                <h3>Orvosi Aloe:</h3>
+                <br>
+                <h3 id="orvosi-aloe">Orvosi Aloe</h3>
                 <table>
                     <tr>
                         <td> <img src="/img/orvosi_aloe_oth_15051-2_vbig.jpg"
@@ -48,53 +64,168 @@
                                 hetente. Soha ne álljon vízben a cserepe. Más pozsgásokkal összeültetve különleges
                                 sivatagi hatást érhetünk el.
                                 A kozmetika és a gyógyszeriparban is használt növény.</p>
+                            <button type="button" onclick="aloeButton()">További információ</button>
+                            <p id="aloe"></p>
                         </td>
                     </tr>
                 </table>
-                <h3>Orvosi Aloe:</h3>
+                <h3 id="orias-sunkaktusz">Óriás sünkaktusz</h3>
                 <table>
                     <tr>
-                        <td> <img src="/img/orvosi_aloe_oth_15051-2_vbig.jpg"
-                                 alt="Orvosi aloe"
-                                 width="150px"
-                                 height="150px"></td>
+                        <td> <img src="/img/orias_sunkaktusz_oth_3966-3_vbig.jpg" alt="Óriás sünkaktusz" width="150px"
+                                height="150px"></td>
                         <td>
-                            <p>Rövid törzset nevelő, jól sarjadzó pozsgás növény, mely a Maderia-, a Kanári- és a
-                                Zöldfoki szigeteken honos. Húsos levelei szürkéskékek, halvány,
-                                fehéres
-                                foltokkal, akár 60cm hosszúra is megnőhetnek. A levelek szegélye tüskés.
-                                Fényigényes és melegigényes növény. Levelei vizet raktároznak, ezért öntözésével
-                                vigyázzunk, télen elég akár havonta egyszer megöntözni, nyáron 1
-                                vagy 2
-                                hetente. Soha ne álljon vízben a cserepe. Más pozsgásokkal összeültetve különleges
-                                sivatagi hatást érhetünk el.
-                                A kozmetika és a gyógyszeriparban is használt növény.</p>
+                            <p>Mexikóból származó kaktusz faj. Teste szabályos gömb alakú, erősen bordázott. Nálunk
+                                legfeljebb 40-50cm
+                                átmérőjű, de természetes környezetében több év múlva, több mint 100 centiméter magasra
+                                is megnőhet. A körülbelül 35 darab bordájának gerincén helyezkednek el a kissé görbült
+                                tüskéi,
+                                amelyek többféle sárga árnyalatban vagy akár fehérben is mutatkoznak. A fiatal növény
+                                nem hasonlít a felnőttre, mivel bordái helyett dudoros kinövései vannak. A kis sárga
+                                virágai nyáron nyílnak, a kaktusz teteje körül. A növény, csak 20 éves korában virágzik
+                                először; és átlagosan 30 évet él. A termés ovális és sárga színű; benne a magok
+                                vörösesbarnák.
+                                Jó vízáteresztő, laza, homokos talajt igényel. Télen 8-12 fok körül kell tartani,
+                                világos helyen, szinte teljesen szárazon. A túlöntözést nem tűri.
+                            </p>
+                            <button type="button" onclick="oriasButton()">További információ</button>
+                            <p id="orias"></p>
+                        </td>
+                    </tr>
+                </table>
+                <h3 id="haromelu-kutyatej">Háromélű kutyatej</h3>
+                <table>
+                    <tr>
+                        <td> <img src="/img/haromelu_kutyatej_updated.jpg" alt="Háromélű kutyatej" width="150px"
+                                height="150px"></td>
+                        <td>
+                            <p>Mérsékelt, meleg éghajlatról származik az Euphorbia acrurensis
+                                Felfelé növekvő szára elágazó, magassága elérheti a 1,5 m magasságot is. Az új
+                                hajtásokon hozza friss zöld leveleit.
+                                Mérsékelten öntözzük hetente egyszer.
+                                A tápanyag utánpótlást tavasszal és nyáron havonta egyszer kaktuszokhoz való tápoldattal
+                                végezzük. Ősztől csökkentsük az öntözést.
+                                Télen hűvös helyen teleltessük kb.7- 12°C hőmérsékleten és havonta minimális öntözésre
+                                van szüksége.
+                                A szükséges átültetést tavasszal végezzük a növekedési időszak elején.
+                                Világos, fényes helyet kedvel, de a közvetlen napsütéssel vigyázzunk.
+                            </p>
+                            <button type="button" onclick="kutyaButton()">További információ</button>
+                            <p id="kutya"></p>
+                        </td>
+                    </tr>
+                </table>
+                <h3 id="botkaktusz">Botkaktusz</h3>
+                <table>
+                    <tr>
+                        <td> <img src="/img/botkaktusz_oth_5391-4_vbig.jpg" alt="Botkaktusz" width="150px"
+                                height="150px"></td>
+                        <td>
+                            <p>A botkaktuszt, a kaktuszra emlékeztető kutyatejfélét vékony, henger alakú szárai teszik
+                                egzotikus növénnyé. Afrikában őshonos pozsgás, gazdagon elágazó, gyönyörű, apró leveles
+                                hajtásokból álló növény. Jól viseli a túlfűtött, száraz levegőjű lakásokat.
+                                Világos, napos helyet igényel leveleit elhullajtja, ha kevés fény éri. Nyáron védjük az
+                                erős tűző naptól.
+                                A szárazságot jobban viselik, mint a túlöntözést. Télen nagyon ritkán kell öntözni. Két
+                                öntözés között a földjét hagyjuk kiszáradni. Nyáron érdemes kaktusztáppal hetente
+                                trágyázni.
+                                Márciustól szeptemberig a növekedés időszakában min.20°-25°C fokra, kicsit több
+                                öntözésre és tápoldatozásra van szükség. A nyugalmi időszakban, októbertől februárig a
+                                vízigény minimálisra csökken,és lényegesen alacsonyabb a hőmérsékleti igény is (12°-
+                                15°C).
+                                Szabadban is tartható 10°C hőmérséklet felett, széltől védett helyen.
+                                A növény tejnedve mérgező. A nedve a bőrrel érintkezve szem- és bőrirritációt okozhat.
+                            </p>
+                            <button type="button" onclick="botButton()">További információ</button>
+                            <p id="bot"></p>
+                        </td>
+                    </tr>
+                </table>
+                <h3 id="agave">Agávé</h3>
+                <table>
+                    <tr>
+                        <td> <img src="/img/agave_oth_7231-1_vbig.jpg" alt="Agávé" width="150px" height="150px"></td>
+                        <td>
+                            <p>Mexikóból származó, de a világon sokfelé elterjedt fagyérzékeny növény. Húsos, merev,
+                                kékesszürke levelei tőlevélrózsába rendeződnek, ez nem mindennapi megjelenést kölcsönöz
+                                a növénynek. Igen jó szárazságtűrő, nyáron a kertbe vagy balkonra kitéve is nagyon jól
+                                érzi magát.
+                            </p>
+                            <button type="button" onclick="agaveButton()">További információ</button>
+                            <p id="agavekaktusz"></p>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div id="main-játék">
+                <h4>Játék a kaktuszokkal</h4>
+               
+            </div>
+            <div >
+                
+                <table>
+                    <tr>
+                        <td class="jatekmargo"><img src="/img/karacsonyi_kaktusz.jpg" width="150px" height="150px"></td>
+                        <td class="jatekmargo"><img src="img/tengerisün_kaktusz.jpg" width="150px" height="150px"></td>
+                        <td class="jatekmargo"><img src="img/cattus.jpg" width="150px" height="150px"></td>
+                        <td class="jatekmargo"><img src="img/felfujhato.jpg" width="150px" height="150px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="jatekmargo">
+                            <div>
+                                <input type="radio" name="karacsonyi" value="1" id="h_karacsonyi">
+                                <label for="h_karacsonyi">karácsonyi kaktusz</label><br>
+                                <input type="radio" name="karacsonyi" value="2" id="husveti">
+                                <label for="husveti">húsvéti kaktusz</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb();">Lássuk jól tippeltél-e</button>
+                            </div>
+                        </td>
+                        <td class="jatekmargo">
+                            <div>
+                                <input type="radio" name="tengerisun" value="1" id="sivatagszepe">
+                                <label for="sivatagszepe">sivatag szépe kaktusz</label> <br>
+                                <input type="radio" name="tengerisun" value="2" id="h_tengerisun">
+                                <label for="h_tengerisun">tengeri sün kaktusz</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb_2();">Lássuk jól tippeltél-e</button>
+                            </div>
+                        </td>
+                        <td class="jatekmargo">
+                            <div>
+                                <input type="radio" name="cicakaktusz" value="1" id="cactus_hungaricus">
+                                <label for="cactus_hungaricus">cactus hungaricus</label> <br>
+                                <input type="radio" name="cicakaktusz" value="2" id="h_catus_gitus">
+                                <label for="h_catus_gitus">catus gitus</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb_3();">Lássuk jól tippeltél-e</button>
+                            </div>
+                        </td>
+                        <td class="jatekmargo">
+                            <div>
+                                <input type="radio" name="felfujhato" value="1" id="kaktusz1">
+                                <label for="kaktusz1">kipukkantható kaktusz</label> <br>
+                                <input type="radio" name="felfujhato" value="2" id="kaktusz2">
+                                <label for="kaktusz2">felfújható kaktusz</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb_4();">Lássuk jól tippeltél-e</button>
+                            </div>
                         </td>
                     </tr>
                 </table>
 
             </div>
-            <div id="main-játék">
-                <h4>Játék a kaktuszokkal</h4>
-                <p>Milyen kaktusz látható a képen?</p>
-                <img src="img/karacsonyi_kaktusz.jpg"
-                     width="150px"
-                     height="200px"><br>
-                <input type="radio"
-                       name="karacsonyi"
-                       value="1"
-                       id="h_karacsonyi"><label>karácsonyi</label><br>
-                <input type="radio"
-                       name="karacsonyi"
-                       value="2"
-                       id="husveti"><label>húsvéti</label><br>
-                <input type="radio"
-                       name="karacsonyi"
-                       value="3"
-                       id="szilveszteri"><label>szilveszteri</label><br>
-            </div>
-            <div >
-                <table id="table2" border="1">
+            <table id="table2" border="1">
                     <thead>
                         <tr><th>&nbsp;</th>
                             <th >Magasság</th>
@@ -144,7 +275,6 @@
 
                         </tr>
                 </table>
-            </div>
 
         </div>
         <div id="footer">
@@ -152,6 +282,8 @@
         </div>
     </div>
     <script src="/js/table.js"></script>
+    <script src="/js/jatek.js"></script>
+    <script src="/js/timi.js"></script>
 </body>
 
 </html>

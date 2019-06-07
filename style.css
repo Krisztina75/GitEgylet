@@ -10,7 +10,8 @@ a {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     margin: 0;
 }
 
@@ -55,6 +56,10 @@ h3 {
     width: 1000px;
     float: right;
 
+}
+
+.jatekmargo {
+    padding: 20px;
 }
 
 #footer {
