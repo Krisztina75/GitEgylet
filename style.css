@@ -51,9 +51,16 @@ h3 {
 
 }
 
+#voting {
+    float: right;
+    width: 1000px;
+    margin: 10px;
+}
+
 #main-játék {
     width: 1000px;
     float: right;
+    padding: 10px;
 
 }
 
