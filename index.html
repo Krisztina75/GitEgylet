@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
     <title>Kaktusz-GitEgylet</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet"
+          type="text/css"
+          href="style.css" />
 </head>
 
 <body>
@@ -29,8 +33,10 @@
                 <h3>Orvosi Aloe:</h3>
                 <table>
                     <tr>
-                        <td> <img src="/img/orvosi_aloe_oth_15051-2_vbig.jpg" alt="Orvosi aloe" width="150px"
-                                height="150px"></td>
+                        <td> <img src="/img/orvosi_aloe_oth_15051-2_vbig.jpg"
+                                 alt="Orvosi aloe"
+                                 width="150px"
+                                 height="150px"></td>
                         <td>
                             <p>Rövid törzset nevelő, jól sarjadzó pozsgás növény, mely a Maderia-, a Kanári- és a
                                 Zöldfoki szigeteken honos. Húsos levelei szürkéskékek, halvány,
@@ -48,8 +54,10 @@
                 <h3>Orvosi Aloe:</h3>
                 <table>
                     <tr>
-                        <td> <img src="/img/orvosi_aloe_oth_15051-2_vbig.jpg" alt="Orvosi aloe" width="150px"
-                                height="150px"></td>
+                        <td> <img src="/img/orvosi_aloe_oth_15051-2_vbig.jpg"
+                                 alt="Orvosi aloe"
+                                 width="150px"
+                                 height="150px"></td>
                         <td>
                             <p>Rövid törzset nevelő, jól sarjadzó pozsgás növény, mely a Maderia-, a Kanári- és a
                                 Zöldfoki szigeteken honos. Húsos levelei szürkéskékek, halvány,
@@ -69,10 +77,41 @@
             <div id="main-játék">
                 <h4>Játék a kaktuszokkal</h4>
                 <p>Milyen kaktusz látható a képen?</p>
-                <img src="img/karacsonyi_kaktusz.jpg" width="150px" height="200px"><br>
-                <input type="radio" name="karacsonyi" value="1" id="h_karacsonyi"><label>karácsonyi</label><br>
-                <input type="radio" name="karacsonyi" value="2" id="husveti"><label>húsvéti</label><br>
-                <input type="radio" name="karacsonyi" value="3" id="szilveszteri"><label>szilveszteri</label><br>
+                <img src="img/karacsonyi_kaktusz.jpg"
+                     width="150px"
+                     height="200px"><br>
+                <input type="radio"
+                       name="karacsonyi"
+                       value="1"
+                       id="h_karacsonyi"><label>karácsonyi</label><br>
+                <input type="radio"
+                       name="karacsonyi"
+                       value="2"
+                       id="husveti"><label>húsvéti</label><br>
+                <input type="radio"
+                       name="karacsonyi"
+                       value="3"
+                       id="szilveszteri"><label>szilveszteri</label><br>
+            </div>
+            <div>
+                <table border="1">
+                    <thead>
+                        <tr><th>&nbsp;</th>
+                            <th >Magasság</th>
+                            <th>Fényigény</th>
+                            <th >Vízigény</th>
+                            <th>Hőigény</th>
+                        </tr>
+                        <tr>
+                            <th id="nev1"></th>
+                            <td ><div id="magassag1"></div></td>
+                            <td   id="fenyigeny1"></td>
+                            <td  id="vizegeny1"></td>
+                            <td   id="hoigeny1"></td>
+
+                        </tr>
+                    </thead>
+                </table>
             </div>
 
         </div>
@@ -80,6 +119,7 @@
             Copyright &copy; 2019 GitEgylet
         </div>
     </div>
+    <script src="/js/table.js"></script>
 </body>
 
 </html>
