@@ -36,3 +36,16 @@ function ValaszkeroGomb_3() {
     }
     alert(popup);
 }
+
+function ValaszkeroGomb_4() {
+    var felfujhato = document.querySelector('#kaktusz2');
+    var isFelfujhato = felfujhato.checked;
+    var popup = "";
+
+    if (isFelfujhato == true) {
+        popup = 'Jó válasz!';
+    } else {
+        popup = 'Ezt is elfogadom.';
+    }
+    alert(popup);
+}

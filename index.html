@@ -71,12 +71,14 @@
                 <p>Milyen kaktusz látható a képen?</p>
                 <table>
                     <tr>
-                        <td><img src="/img/karacsonyi_kaktusz.jpg" width="150px" height="180px"></td>
-                        <td><img src="img/tengerisün_kaktusz.jpg" width="150px" height="130px"></td>
-                        <td><img src="img/cattus.jpg" width="150px" height="150px"></td>
+                        <td class="jatekmargo"><img src="/img/karacsonyi_kaktusz.jpg" width="150px" height="150px"></td>
+                        <td class="jatekmargo"><img src="img/tengerisün_kaktusz.jpg" width="150px" height="150px"></td>
+                        <td class="jatekmargo"><img src="img/cattus.jpg" width="150px" height="150px"></td>
+                        <td class="jatekmargo"><img src="img/felfujhato.jpg" width="150px" height="150px">
+                        </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td class="jatekmargo">
                             <div>
                                 <input type="radio" name="karacsonyi" value="1" id="h_karacsonyi">
                                 <label for="h_karacsonyi">karácsonyi kaktusz</label><br>
@@ -88,7 +90,7 @@
                                 <button type="button" onclick="ValaszkeroGomb();">Lássuk jól tippeltél-e</button>
                             </div>
                         </td>
-                        <td>
+                        <td class="jatekmargo">
                             <div>
                                 <input type="radio" name="tengerisun" value="1" id="sivatagszepe">
                                 <label for="sivatagszepe">sivatag szépe kaktusz</label> <br>
@@ -100,7 +102,7 @@
                                 <button type="button" onclick="ValaszkeroGomb_2();">Lássuk jól tippeltél-e</button>
                             </div>
                         </td>
-                        <td>
+                        <td class="jatekmargo">
                             <div>
                                 <input type="radio" name="cicakaktusz" value="1" id="cactus_hungaricus">
                                 <label for="cactus_hungaricus">cactus hungaricus</label> <br>
@@ -110,6 +112,18 @@
                             <br>
                             <div>
                                 <button type="button" onclick="ValaszkeroGomb_3();">Lássuk jól tippeltél-e</button>
+                            </div>
+                        </td>
+                        <td class="jatekmargo">
+                            <div>
+                                <input type="radio" name="felfujhato" value="1" id="kaktusz1">
+                                <label for="kaktusz1">kipukkantható kaktusz</label> <br>
+                                <input type="radio" name="felfujhato" value="2" id="kaktusz2">
+                                <label for="kaktusz2">felfújható kaktusz</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb_4();">Lássuk jól tippeltél-e</button>
                             </div>
                         </td>
                     </tr>
