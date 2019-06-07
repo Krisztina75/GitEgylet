@@ -23,3 +23,16 @@ function ValaszkeroGomb_2() {
     }
     alert(popup);
 }
+
+function ValaszkeroGomb_3() {
+    var cicakaktusz = document.querySelector('#h_catus_gitus');
+    var isCicakaktusz = cicakaktusz.checked;
+    var popup = "";
+
+    if (isCicakaktusz == true) {
+        popup = 'Helyes válasz!';
+    } else {
+        popup = 'Sajnos nem talált.';
+    }
+    alert(popup);
+}

@@ -69,29 +69,51 @@
             <div id="main-játék">
                 <h4>Játék a kaktuszokkal</h4>
                 <p>Milyen kaktusz látható a képen?</p>
-                <div>
-                    <img src="/img/karacsonyi_kaktusz.jpg" width="150px" height="180px">
-                    <br>
-                    <input type="radio" name="karacsonyi" value="1" id="h_karacsonyi">
-                    <label for="h_karacsonyi">karácsonyi kaktusz</label>
-                    <br>
-                    <input type="radio" name="karacsonyi" value="2" id="husveti">
-                    <label for="husveti">húsvéti kaktusz</label>
-                    <br>
-                    <button type="button" onclick="ValaszkeroGomb();">Lássuk jól tippeltél-e</button>
-                </div>
-                <br>
-                <div>
-                    <img src="img/tengerisün_kaktusz.jpg" width="150px" height="130px">
-                    <br>
-                    <input type="radio" name="tengerisun" value="1" id="sivatagszepe">
-                    <label for="sivatagszepe">sivatag szépe kaktusz</label> <br>
-                    <input type="radio" name="tengerisun" value="2" id="h_tengerisun">
-                    <label for="h_tengerisun">tengeri sün kaktusz</label>
-                    <br>
-                    <button type="button" onclick="ValaszkeroGomb_2();">Lássuk jól tippeltél-e</button>
-                </div>
-                <br>
+                <table>
+                    <tr>
+                        <td><img src="/img/karacsonyi_kaktusz.jpg" width="150px" height="180px"></td>
+                        <td><img src="img/tengerisün_kaktusz.jpg" width="150px" height="130px"></td>
+                        <td><img src="img/cattus.jpg" width="150px" height="150px"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <input type="radio" name="karacsonyi" value="1" id="h_karacsonyi">
+                                <label for="h_karacsonyi">karácsonyi kaktusz</label><br>
+                                <input type="radio" name="karacsonyi" value="2" id="husveti">
+                                <label for="husveti">húsvéti kaktusz</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb();">Lássuk jól tippeltél-e</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <input type="radio" name="tengerisun" value="1" id="sivatagszepe">
+                                <label for="sivatagszepe">sivatag szépe kaktusz</label> <br>
+                                <input type="radio" name="tengerisun" value="2" id="h_tengerisun">
+                                <label for="h_tengerisun">tengeri sün kaktusz</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb_2();">Lássuk jól tippeltél-e</button>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <input type="radio" name="cicakaktusz" value="1" id="cactus_hungaricus">
+                                <label for="cactus_hungaricus">cactus hungaricus</label> <br>
+                                <input type="radio" name="cicakaktusz" value="2" id="h_catus_gitus">
+                                <label for="h_catus_gitus">catus gitus</label>
+                            </div>
+                            <br>
+                            <div>
+                                <button type="button" onclick="ValaszkeroGomb_3();">Lássuk jól tippeltél-e</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
 
             </div>
 
