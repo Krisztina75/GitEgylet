@@ -24,7 +24,7 @@ var kaktuszok = [
 
         },
     {
-         "nev":"botaktusz",
+         "nev":"botkaktusz",
             "magassag": "150 cm",
             "fenyigeny": "világos helyre",
             "vizigeny": "szárazságtűrő",
